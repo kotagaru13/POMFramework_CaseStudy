@@ -7,15 +7,15 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src//test//resources//feature//CRUD.feature"
-//		glue = {"stepDefs"},
-//		monochrome = true,
-//		dryRun = false,
-//		plugin = {"Pretty",
-//				"html:target//Reports//HtmlReport.html"
-//				//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-//				
-//		}
+		features = "src//test//resources//feature//CRUD.feature",
+		glue = {"stepDefs"},
+		monochrome = true,
+		dryRun = false,
+		plugin = {"pretty",
+				"html:target//Reports//HtmlReport.html"
+				//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				
+		}
 
 		)
 

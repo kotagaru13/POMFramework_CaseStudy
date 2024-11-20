@@ -29,8 +29,7 @@ public class ArticleTest {
 	@BeforeTest
 	public void setup() {
 		TestBase.openUrl("https://conduit-realworld-example-app.fly.dev/");
-		 //loginPage.login("kotachandu13@gmail.com", "Kotirathnam_13");
-		loginPage.login("haripriyadasari56@gmail.com", "Priya@56");
+		 loginPage.login("kotachandu13@gmail.com", "Kotirathnam_13");
 	}
 	
 	@Test
